@@ -423,6 +423,7 @@ article.blog {
   justify-content: flex-start;
   align-content: stretch;
   flex-wrap: wrap;
+  background-image: url(./images/Coolum-Beach.jpg);
 }
 
 body > article.blog > h1#blog-head {
@@ -437,7 +438,7 @@ body > article.blog > h1#blog-head {
 }
 
 .blog-wrapper_all {
-  border: 3px double #C1FCF6;
+  border: 6px double #545479;
   box-sizing: border-box;
   width: 85%;
   height: auto;
@@ -445,6 +446,7 @@ body > article.blog > h1#blog-head {
   justify-content: space-around;
   flex-wrap: wrap;
   margin-bottom: 4em;
+  background: #5bb7c583;
 }
 
 .blog-img {
