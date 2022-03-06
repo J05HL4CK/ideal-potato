@@ -419,6 +419,10 @@ article.blog {
   justify-content: space-around;
   flex-direction: column;
   align-items: center;
+  background-color: #00ABC5;
+  justify-content: flex-start;
+  align-content: stretch;
+  flex-wrap: wrap;
 }
 
 body > article.blog > h1#blog-head {
@@ -432,10 +436,20 @@ body > article.blog > h1#blog-head {
   box-sizing: border-box;
 }
 
-.blog-wrapper_posts {
+.blog-wrapper_all {
   border: 3px double #C1FCF6;
   box-sizing: border-box;
-  width: fit-content;
+  width: 85%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 4em;
+}
+
+.blog-img {
+  width: 45%;
+  border-radius: 16%;
 }
 
 /*# sourceMappingURL=style.css.map */
