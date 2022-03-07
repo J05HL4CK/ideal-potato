@@ -452,15 +452,29 @@ body > article.blog > h1#blog-head {
 }
 
 .blog-img {
+  border-radius: 16%;
   width: 360px;
   height: 360px;
-  border-radius: 16%;
+  max-width: 75%;
+  max-height: auto;
 }
 
 .blog-section_wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+.blog-wrapper_all #h2 {
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #003834;
+}
+
+.blog-wrapper_discrete p {
+  text-align: center;
+  color: #003834;
 }
 
 /*# sourceMappingURL=style.css.map */
