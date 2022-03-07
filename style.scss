@@ -558,7 +558,7 @@ div.contact-form {
     list-style: none;
     align-items: center;
     margin-bottom:12%;
-    
+
     h2#contact-h2{
       display: contents;
       font-size: xx-large;      
@@ -657,6 +657,25 @@ div.contact-form {
   color: #334B49;
   background-color: #4CD4CB;
 } 
+article.portfolio-article{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5%;
+  flex-shrink: 4;
+  >section {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  border:4px ridge #266D94;
+  width: 98%;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  background:#7b95c2d0 ;
 
-
+}
+}
 
