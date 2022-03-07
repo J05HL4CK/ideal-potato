@@ -476,18 +476,29 @@ display: flex;
 justify-content: space-around;
 flex-wrap: wrap;
 margin-bottom: 4em;
-background: #5bb7c583;
+background: #5bb7c5a4;
 
 
 
 }
 
 .blog-img {
-  width: 45%;
+  width: 360px;
+  height: 360px;
   border-radius: 16%;
+  
+  
 
 
 
 }
+.blog-section_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+  }
+
+
 
 
